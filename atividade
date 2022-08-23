@@ -1,0 +1,48 @@
+atividade2308.html
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Barbearia Alura</title>
+		
+	<link rel="stylesheet" href="produto.css">
+
+	</head>
+	<header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">nome e sobrenome</label>
+				<input type="text" id="email">
+
+                <label for="email">email</label>
+                <input type="text" id="email">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
+			</form>
+		</main>
+			<body>
+</body>
+</html>
+______________________________________________________________
+produto.css
+
+main{
+width: 940px;
+margin: 0 auto;
+}
+form{
+margin: 40px 0;
+}
+form label{
+display: block;
+font-size: 20px;
+margin: 0 0 5px;
+}
+form input{
+direction: block;
+margin: 0 0 10px;
+padding: 5px 10px;
+width: 50%;
+}
