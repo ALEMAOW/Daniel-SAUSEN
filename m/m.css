@@ -1,0 +1,65 @@
+body{
+
+background: #CCCCCC;
+
+}
+
+
+main{
+
+   width: 970px;
+   margin: 0 auto;
+
+}
+.titulo{
+   text-transform: center;
+   text-align: center;
+   color: #0008ed;
+
+}
+form{
+
+	margin: 60px 215px;
+}
+
+form label, form p {
+	display: block;
+	font-size: 27px;
+	margin: 1 0 15px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 1 1 25px;
+	padding: 10px 25px;
+	width: 56%;
+}
+.pagina1{
+
+   margin: 10px 0 ;
+
+}
+
+.atendimento{
+
+   margin: 1 0 10px 0;
+}
+
+.horario{
+
+   margin: 1 0 70px 0;
+}
+
+.dia{
+
+   margin: 0 0 70px 0;
+}
+
+
+
+
+.footer{
+   text-align: center;
+
+   background: #CCCCCC;
+}
