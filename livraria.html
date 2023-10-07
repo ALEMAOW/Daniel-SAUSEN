@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <script>
+        function calculardesconto(){
+        const valorcompra = parseFloat(dicument.getElementById('valorcompra').value);
+        let desconto = 0;
+
+        if(valorcompra > 200){
+            desconto = 0.2; //20%
+        }else if (valorcompra >100){
+                desconto = 0.1 // 10%
+        
+        }else if (valorcompra <=100){
+            desconto = 0.05; // 5% de desconto
+        }
+        }
+    </script>
+</head>
+<body>
+
+    <input type="number" id="Valor Compra" placeholder="insira valor"></imput>
+    <button onclick="calculardesconto()" Calcular Desconto:></button>
+    <p> Desconto aplicado: <span id="desconto"></span></p>
+
+</body>
+</html>
