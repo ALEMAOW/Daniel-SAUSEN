@@ -1,0 +1,26 @@
+body{
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+        background-image: url('search-icon-png-21.png');
+        background-size: 50px;
+        background-position: center;
+        background-repeat: no-repeat ;
+        background-position: center;
+        margin: 0 auto;
+        float: left;
+    }
+input{
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    float: left;
+}
+font{
+    color: aliceblue;
+}
