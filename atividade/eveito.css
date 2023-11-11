@@ -1,0 +1,69 @@
+body{
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+        width: 203px;
+        height: 50px;
+        font-size: 18px;
+        background-image: url('search-icon-png-21.png');
+        background-size: 50px;
+        background-position: center;
+        background-repeat: no-repeat ;
+        background-position: center;
+        margin: 0 auto;
+        float: left;
+    }
+input{
+    margin: 0 auto;
+    width: 280px;
+    height: 45px;
+    float: left;
+}
+font{
+    color: aliceblue;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: red;
+}
+.centro input,
+.centro button{
+    margin: 0%;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+    justify-content: center; /* Centraliza as colunas horizontalmente */
+    align-items: center; /* Centraliza as colunas verticalmente */
+
+}
+
+.container img {
+    object-fit: cover;
+    width: 100%;
+    margin: 5%;
+}
+#livro1{
+    width: 110%;
+    padding-right: 80%;
+    margin: auto;
+}
+#livro2{
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+
+#livro3{
+    width: 110%;
+    padding-right:80% ;
+    margin: auto;
+}
